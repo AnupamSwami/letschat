@@ -1,0 +1,43 @@
+body{
+  background: linear-gradient(rgb(96, 220, 224)  , rgb(34, 199, 75) , rgb(190, 209, 81));
+}
+
+h1 {
+  color: rgb(30, 255, 0);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+#sign-in {
+  background-color: rgb(223, 211, 211);
+  margin-top: 170px;
+  width: 425px;
+  height: 350px;
+  border-radius: 30px;
+}
+
+input {
+  height: 25px;
+  width: 300px;
+  text-align: center;
+  font-family: cursive;
+  color: black;
+  font-weight: bolder;
+  background-color: rgb(173, 174, 230);
+  margin-top: 20px;
+}
+
+.mbtn {
+  font-size: 35px;
+  background-color: rgb(37, 52, 184);
+  color: rgb(255, 208, 0);
+  border-width: 6px;
+  border-color: rgb(0, 0, 0);
+  margin-top: 20px;
+}
+
+#logout {
+  font-size: 20px;
+  float: right;
+}
