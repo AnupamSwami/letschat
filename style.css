@@ -1,8 +1,8 @@
 body{
-  background: linear-gradient(rgb(96, 220, 224)  , rgb(34, 199, 75) , rgb(190, 209, 81));
+background: linear-gradient(#60ebeb 40%, #27ae60 45%);
 }
 
-h1 {
+.h1 {
   color: rgb(30, 255, 0);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 50px;
@@ -11,10 +11,11 @@ h1 {
 
 #sign-in {
   background-color: rgb(223, 211, 211);
-  margin-top: 170px;
+  margin-top: 140px;
   width: 425px;
   height: 350px;
   border-radius: 30px;
+  margin-right: 700px;
 }
 
 input {
@@ -22,10 +23,11 @@ input {
   width: 300px;
   text-align: center;
   font-family: cursive;
-  color: black;
+  color: rgb(0, 0, 255);
   font-weight: bolder;
-  background-color: rgb(173, 174, 230);
+  background-color: rgb(255, 255, 255);
   margin-top: 20px;
+  font-size: 20px;
 }
 
 .mbtn {
@@ -40,4 +42,56 @@ input {
 #logout {
   font-size: 20px;
   float: right;
+}
+
+#tred {
+  color: White;
+  font-size: 40px;
+  margin-left: 900px;
+  margin-top: -400px;
+}
+
+#output_rooms {
+  margin-left: 900px;
+  background-color: white;
+  border-radius: 25px;
+  border-width: 6px;
+  border-color: black;
+  height: fit-content;
+  width: fit-content;
+}
+
+#greet {
+  color: rgb(4, 0, 255);
+  font-size: 40px;
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+#msg_output {
+  color: black;
+  font-size: 30px;
+  font-weight: bolder;
+  background-color: white;
+  width: 1500px;
+  height: 500px;
+  text-align: left;
+  font-family: cursive;
+}
+
+#msg {
+  background-color: rgb(126, 221, 189);
+  width: 1300px;
+  height: 35px;
+  color: black;
+  font-family: cursive;
+  text-align: left;
+}
+
+#btn__ {
+  color: green;
+  background-color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-family: cursive;
+  font-weight: bolder;
 }
