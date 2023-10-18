@@ -45,10 +45,14 @@ input {
 }
 
 #tred {
-  color: White;
   font-size: 40px;
   margin-left: 900px;
   margin-top: -400px;
+}
+
+#output {
+  padding: 10px; width:50%;background: rgba(255,255,255,0.8);border-radius: 15px;margin-left: 700px;
+
 }
 
 #output_rooms {
@@ -59,13 +63,6 @@ input {
   border-color: black;
   height: fit-content;
   width: fit-content;
-}
-
-#greet {
-  color: rgb(4, 0, 255);
-  font-size: 40px;
-  font-family: cursive;
-  font-weight: bolder;
 }
 
 #msg_output {
@@ -86,6 +83,7 @@ input {
   color: black;
   font-family: cursive;
   text-align: left;
+  font-size: 24px;
 }
 
 #btn__ {
